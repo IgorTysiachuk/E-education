@@ -35,34 +35,54 @@
   -webkit-user-select: none;
      -moz-user-select: none;
           user-select: none;
+  display: none;
 }
-.header_groupBlocks_login {
-  width: 149px;
+
+.blockLogin {
+  display: block;
+  margin: 60px auto;
+  width: 487px;
+  height: 595px;
+  flex-shrink: 0;
+  border-radius: 10px;
+  border: 3px solid rgba(0, 0, 0, 0.2);
+  background: rgba(255, 255, 255, 0.1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.blockLogin_top {
   height: 50px;
-  border-radius: 25px 0px;
-  background: #3D7B5D;
+  width: 90%;
   display: flex;
   justify-content: center;
   align-items: center;
-  color: #FFF;
-  font-family: Inter;
-  font-size: 24px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: normal;
-  cursor: pointer;
 }
-.header_groupBlocks_register {
-  width: 149px;
-  height: 50px;
-  color: #404040;
+.blockLogin_top_title {
+  color: #3D7B5D;
   font-family: Inter;
-  font-size: 24px;
+  font-size: 36px;
   font-style: normal;
-  font-weight: 500;
+  font-weight: 700;
   line-height: normal;
-  justify-content: center;
+}
+.blockLogin_middle {
+  height: 410px;
+  width: 90%;
+  background-color: blue;
   display: flex;
+  flex-direction: column;
   align-items: center;
-  cursor: pointer;
-}/*# sourceMappingURL=styleForStartPage.css.map */
+  row-gap: 20px;
+}
+.blockLogin_middle_fieldForEmail {
+  width: 100%;
+  height: 100px;
+  background-color: red;
+}
+.blockLogin_bottom {
+  width: 90%;
+  height: 50px;
+  background-color: lightgreen;
+}/*# sourceMappingURL=styleForLoginPage.css.map */

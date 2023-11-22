@@ -1,5 +1,68 @@
-.block {
-    width: 100px;
-    height: 100px;
-    background-color: red;
+.header {
+    width: 90%;
+    padding: 0 5%;
+    height: 86px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.50);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    background: #FFF;
+    &_logo {
+        width: 230px;
+        height: 70px;
+        flex-shrink: 0;
+        color: #3D7B5D;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        font-family: Inter;
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        user-select: none;
+        cursor: pointer;
+    }
+    &_groupBlocks {
+        width: 320px;
+        height: 50px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        user-select: none;
+        &_login {
+            width: 149px;
+            height: 50px;
+            border-radius: 25px 0px;
+            background: #3D7B5D;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: #FFF;
+
+            font-family: Inter;
+            font-size: 24px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: normal;
+            cursor: pointer;
+        }
+        &_register {
+            width: 149px;
+            height: 50px;
+            color: #404040;
+
+            font-family: Inter;
+            font-size: 24px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: normal;
+            justify-content: center;
+            display: flex;
+            align-items: center;
+            cursor: pointer;
+        }
+    }
 }
