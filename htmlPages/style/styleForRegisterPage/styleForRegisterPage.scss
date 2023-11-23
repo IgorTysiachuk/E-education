@@ -1,0 +1,181 @@
+.header {
+    width: 90%;
+    padding: 0 5%;
+    height: 86px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.50);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    background: #FFF;
+    &_logo {
+        width: 230px;
+        height: 70px;
+        flex-shrink: 0;
+        color: #3D7B5D;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        font-family: Inter;
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        user-select: none;
+        cursor: pointer;
+    }
+    &_groupBlocks {
+        width: 320px;
+        height: 50px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        user-select: none;
+        display: none;
+    }
+}
+.register {
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    width: 100%;
+    height: auto;
+    &_block {
+        width: 618px;
+        height: 670px;
+        flex-shrink: 0;
+        border-radius: 10px;
+        border: 3px solid rgba(0, 0, 0, 0.20);
+
+        background: rgba(255, 255, 255, 0.10);
+        display: flex;
+        justify-content: space-evenly;
+        flex-direction: column;
+        align-items: center;
+        &_first {
+            width: 500px;
+            height: 50px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            &_p1 {
+                color: #3D7B5D;
+                font-family: Inter;
+                font-size: 36px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: normal;
+            }
+            &_complect {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                column-gap: 15px;
+                &_p1 {
+                    color: rgba(0, 0, 0, 0.50);
+                    font-family: Inter;
+                    font-size: 24px;
+                    font-style: normal;
+                    font-weight: 600;
+                    line-height: normal;
+                }
+                &_line {
+                    width: 160px;
+                    height: 8px;
+                    background: #B0B0B0;
+                    border-radius: 3px;
+                    &_in {
+                        width: 25%;
+                        height: 100%;
+                        background-color: #3D7B5D;
+                        border-radius: 3px;
+                    }
+                }
+            }
+        }
+        &_second {
+            width: 500px;
+            height: 410px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            row-gap: 30px;
+            &_title {
+                color: #3D7B5D;
+
+                font-family: Inter;
+                font-size: 36px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: normal;
+            }
+            &_category {
+                width: 500px;
+                height: 330px;
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: center;
+                column-gap: 20px;
+                row-gap: 16px;
+                &_block1 {
+                    width: 237px;
+                    height: 153px;
+                    flex-shrink: 0;
+                    border-radius: 8px;
+                    border: 1px solid #B0B0B0;
+                    
+                    background: #FFF;
+                }
+                &_block2 {
+                    width: 323px;
+                    height: 153px;
+                    flex-shrink: 0;
+                    border-radius: 8px;
+                    border: 1px solid #B0B0B0;
+
+                    background: #FFF;
+                }
+            }
+        }
+        &_third {
+            width: 500px;
+            height: 50px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            &_p1 {
+                color: #3D7B5D;
+                text-decoration: none;
+                font-family: Inter;
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 500;
+                line-height: normal;
+            }
+            &_next {
+                user-select: none;
+                cursor: pointer;
+                width: 156px;
+                height: 50px;
+                flex-shrink: 0;
+                border-radius: 10px;
+                background: #3D7B5D;
+                color: #FFF;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+
+                text-align: center;
+                font-family: Inter;
+                font-size: 20px;
+                font-style: normal;
+                font-weight: 500;
+                line-height: normal;
+            }
+        }
+
+
+    }
+}

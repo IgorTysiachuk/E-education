@@ -159,15 +159,66 @@
   line-height: normal;
 }
 .blockLogin_middle_adding_show_mark {
-  width: 29px;
-  height: 29px;
+  width: 28px;
+  height: 28px;
   flex-shrink: 0;
   border-radius: 4px;
   border: 2px solid rgba(0, 0, 0, 0.13);
   background: #FFF;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.blockLogin_middle_adding_show_mark_into {
+  width: 24px;
+  height: 24px;
+  flex-shrink: 0;
+  border-radius: 5px;
+  background: #3D7B5D;
+  border: 3px solid white;
+  opacity: 0;
 }
 .blockLogin_bottom {
-  width: 90%;
+  width: 360px;
   height: 50px;
-  background-color: lightgreen;
+  display: flex;
+  justify-content: end;
+}
+.blockLogin_bottom_btn {
+  width: 198px;
+  height: 100%;
+  flex-shrink: 0;
+  border-radius: 10px;
+  background: #3D7B5D;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #FFF;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
+  cursor: pointer;
+  text-align: center;
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.error {
+  width: 360px;
+  height: 20px;
+}
+.error_text {
+  color: #F00;
+  font-family: Inter;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
 }/*# sourceMappingURL=styleForLoginPage.css.map */

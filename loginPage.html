@@ -23,21 +23,28 @@
         <div class="blockLogin_middle">
             <div class="blockLogin_middle_fieldForEmail">
                 <p class="blockLogin_middle_fieldForEmail_addText">Введіть електронну адресу</p>
-                <input class="blockLogin_middle_fieldForEmail_input" placeholder="email"></input>
+                <input class="blockLogin_middle_fieldForEmail_input" placeholder="email" type="email"></input>
             </div>
             <div class="blockLogin_middle_fieldForEmail">
                 <p class="blockLogin_middle_fieldForEmail_addText">Введіть пароль</p>
-                <input class="blockLogin_middle_fieldForEmail_input" placeholder="password"></input>
+                <input id="typeForCheck" class="blockLogin_middle_fieldForEmail_input" placeholder="password" type="password"></input>
             </div>
             <div class="blockLogin_middle_adding">
                 <a href="./registerPage.html" class="blockLogin_middle_adding_create">Створити акаунт</a>
                 <div class="blockLogin_middle_adding_show">
                     <p class="blockLogin_middle_adding_show_p1">Показати пароль</p>
-                    <div class="blockLogin_middle_adding_show_mark"></div>
+                    <div id="unChecked" class="blockLogin_middle_adding_show_mark">
+                        <div id="checked" class="blockLogin_middle_adding_show_mark_into"></div>
+                    </div>
                 </div>
             </div>
+            <div class="error">
+                <p class="error_text">*Неправильний адрес чи пароль !</p>
+            </div>
         </div>
-        <div class="blockLogin_bottom"></div>
+        <div class="blockLogin_bottom">
+            <div class="blockLogin_bottom_btn">Вхід</div>
+        </div>
     </div>
     <script src="./htmlPages/script/scriptForLoginPageClick.js"></script>
 </body>
