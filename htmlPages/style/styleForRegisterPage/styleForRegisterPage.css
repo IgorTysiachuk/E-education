@@ -127,20 +127,91 @@
   row-gap: 16px;
 }
 .register_block_second_category_block1 {
-  width: 237px;
+  width: 233px;
   height: 153px;
   flex-shrink: 0;
   border-radius: 8px;
   border: 1px solid #B0B0B0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background: #FFF;
+  position: relative;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
+  cursor: pointer;
+  transition-duration: 0.05s;
+}
+.register_block_second_category_block1:hover {
+  border: 2px solid #3D7B5D;
+  transition-duration: 0.05s;
+}
+.register_block_second_category_block1_function {
+  width: 90%;
+  height: 50%;
+  padding-top: 10%;
+  color: #000;
+  text-align: center;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.register_block_second_category_block1_top {
+  position: absolute;
+  top: 8px;
+  height: 28px;
+  width: 96%;
+  display: flex;
+  justify-content: space-between;
+}
+.register_block_second_category_block1_top_role {
+  color: rgba(0, 0, 0, 0.76);
+  margin-left: 10px;
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.register_block_second_category_block1_top_point {
+  width: 25px;
+  height: 25px;
+  flex-shrink: 0;
+  border-radius: 28px;
+  border: 1px solid #B0B0B0;
+  background: #FFF;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.register_block_second_category_block1_top_point_into {
+  width: 17px;
+  height: 17px;
+  border-radius: 28px;
+  border: 2px solid #3D7B5D;
+  background: #3D7B5D;
 }
 .register_block_second_category_block2 {
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
+  cursor: pointer;
   width: 323px;
   height: 153px;
   flex-shrink: 0;
   border-radius: 8px;
   border: 1px solid #B0B0B0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background: #FFF;
+  position: relative;
+}
+.register_block_second_category_block2:hover {
+  border: 2px solid #3D7B5D;
 }
 .register_block_third {
   width: 500px;
@@ -178,4 +249,8 @@
   font-style: normal;
   font-weight: 500;
   line-height: normal;
+}
+
+.choosen {
+  border: 3px solid #3D7B5D;
 }/*# sourceMappingURL=styleForRegisterPage.css.map */

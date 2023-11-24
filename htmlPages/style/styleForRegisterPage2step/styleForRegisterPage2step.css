@@ -1,0 +1,116 @@
+.header {
+  width: 90%;
+  padding: 0 5%;
+  height: 86px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #FFF;
+}
+.header_logo {
+  width: 230px;
+  height: 70px;
+  flex-shrink: 0;
+  color: #3D7B5D;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Inter;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
+  cursor: pointer;
+}
+.header_groupBlocks {
+  width: 320px;
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
+  display: none;
+}
+
+.register {
+  display: flex;
+  justify-content: center;
+  margin-top: 60px;
+  margin-bottom: 60px;
+  width: 100%;
+  height: auto;
+}
+.register_block {
+  width: 618px;
+  height: 670px;
+  flex-shrink: 0;
+  border-radius: 10px;
+  border: 3px solid rgba(0, 0, 0, 0.2);
+  background: rgba(255, 255, 255, 0.1);
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+  align-items: center;
+}
+.register_block_first {
+  width: 500px;
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.register_block_first_p1 {
+  color: #3D7B5D;
+  font-family: Inter;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.register_block_first_complect {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  -moz-column-gap: 15px;
+       column-gap: 15px;
+}
+.register_block_first_complect_p1 {
+  color: rgba(0, 0, 0, 0.5);
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.register_block_first_complect_line {
+  width: 160px;
+  height: 8px;
+  background: #B0B0B0;
+  border-radius: 3px;
+}
+.register_block_first_complect_line_in {
+  width: 25%;
+  height: 100%;
+  background-color: #3D7B5D;
+  border-radius: 3px;
+}
+.register_block_second {
+  width: 500px;
+  height: 410px;
+}
+.register_block_second_place {
+  width: 390px;
+  height: 100%;
+  background-color: blue;
+}
+.register_block_third {
+  width: 500px;
+  height: 50px;
+  background-color: rgb(0, 255, 13);
+}/*# sourceMappingURL=styleForRegisterPage2step.css.map */

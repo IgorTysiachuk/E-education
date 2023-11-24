@@ -120,22 +120,93 @@
                 column-gap: 20px;
                 row-gap: 16px;
                 &_block1 {
-                    width: 237px;
+                    width: 233px;
                     height: 153px;
                     flex-shrink: 0;
                     border-radius: 8px;
                     border: 1px solid #B0B0B0;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
                     
                     background: #FFF;
+                    position: relative;
+                    user-select: none;
+                    cursor: pointer;
+                    transition-duration: 0.05s;
+                    &:hover {
+                        border: 2px solid #3D7B5D;
+                        transition-duration: 0.05s;
+                    }
+                    &_function {
+                        width: 90%;
+                        height: 50%;
+                        padding-top: 10%;
+                        color: #000;
+
+                        text-align: center;
+                        font-family: Inter;
+                        font-size: 16px;
+                        font-style: normal;
+                        font-weight: 500;
+                        line-height: normal;
+                    }
+                    &_top {
+                        position: absolute;
+                        top: 8px;
+                        height: 28px;
+                        width: 96%;
+                        display: flex;
+                        justify-content: space-between;
+                        &_role {
+                            color: rgba(0, 0, 0, 0.76);
+                            margin-left: 10px;
+                            font-family: Inter;
+                            font-size: 24px;
+                            font-style: normal;
+                            font-weight: 600;
+                            line-height: normal;
+                        }
+                        &_point {
+                            width: 25px;
+                            height: 25px;
+                            flex-shrink: 0;
+                            border-radius: 28px;
+                            border: 1px solid #B0B0B0;
+
+                            background: #FFF;
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                            &_into {
+                                width: 17px;
+                                height: 17px;
+                                border-radius: 28px;
+                                border: 2px solid #3D7B5D;
+
+                                background: #3D7B5D;
+                            }
+                        }
+                    }
                 }
                 &_block2 {
+                    user-select: none;
+                    cursor: pointer;
                     width: 323px;
                     height: 153px;
                     flex-shrink: 0;
                     border-radius: 8px;
                     border: 1px solid #B0B0B0;
 
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    
                     background: #FFF;
+                    position: relative;
+                    &:hover {
+                        border: 2px solid #3D7B5D;
+                    }
                 }
             }
         }
@@ -178,4 +249,7 @@
 
 
     }
+}
+.choosen {
+    border: 3px solid #3D7B5D;
 }
